@@ -9,12 +9,12 @@ This introduction should conform to the template and guidelines defined in this 
  - [Location](#location)
  - [Structure](#structure)
  - [Headers](#headers)
- - [Introduction Part 1: Overview](introduction-part-1:-overview)
- - [Introduction Part 2: Concepts](introduction-part-2:-concepts)
- - [Introduction Part 3: Quickstart](introduction-part-3:-quickstart)
- - [Introduction Part 4: Technical Information](introduction-part-4:-technical-information)
- - [Introduction Part 5: Technical Limitations](introduction-part-5:-technical-limitations)
- - [Introduction Part 6: Further Support](introduction-part-6:-further-support)
+ - [Introduction Part 1: Overview](#introduction-part-1:-overview)
+ - [Introduction Part 2: Concepts](#introduction-part-2:-concepts)
+ - [Introduction Part 3: Quickstart](#introduction-part-3:-quickstart)
+ - [Introduction Part 4: Technical Information](#introduction-part-4:-technical-information)
+ - [Introduction Part 5: Technical Limitations](#introduction-part-5:-technical-limitations)
+ - [Introduction Part 6: Further Support](#introduction-part-6:-further-support)
 
 ## Location
 
@@ -67,7 +67,7 @@ Start with your first header at H2 level (`## Overview`)
 > Identity and Access Management (IAM) allows you to share access to the management of your Scaleway resources and Organization settings, in a controlled and secure manner. With IAM, you can invite other users to your Organization, as well as create IAM applications which represent non-human users with their own API keys. You define permissions for users and applications in your Organization via highly customizable policies. Policies let you specify exactly what rights users and applications (or groups of users and applications) should have within your Organization.
 
 
-### Introduction Part 2: Concepts
+## Introduction Part 2: Concepts
 
 Link to the product's **Concepts** page on the main documentation website. Do not directly list and describe its concepts here. While it is important that users can look up definitions for product-related terms they may not understand, we do not want to duplicate and maintain the same content in two different places.
 
@@ -79,11 +79,11 @@ Make sure to amend the link, product name and example concepts accordingly if co
 
 > Refer to our [dedicated concepts page](https://www.scaleway.com/en/docs/network/public-gateways/concepts/) to find definitions of all terminology related to Public Gateways, including DHCP, NAT, SSH bastion and more.
 
-### Introduction Part 3: Quickstart
+## Introduction Part 3: Quickstart
 
 Provide instructions and curl examples to help the user jump into the API and get started with the most fundamental calls as quickly as possible.
 
-#### Requirements
+### Requirements
 
 Begin the quickstart by describing the pre-requisites for the user before they can complete the quickstart.
 
@@ -98,7 +98,7 @@ Use this wording verbatim, making sure to add any extra requirements for a speci
 >   - You have created an [API key](https://www.scaleway.com/en/docs/identity-and-access-management/iam/how-to/create-api-keys/) and that the API key has sufficient [IAM permissions](https://www.scaleway.com/en/docs/identity-and-access-management/iam/reference-content/permission-sets/) to perform the actions described on this page
 >- You have [installed `curl`](https://curl.se/download.html)
 
-#### Configuring environment variables
+### Configuring environment variables
 
 In step one of the quickstart, advise the user on configuring environment variables to make further steps easier. Ensure that you follow the naming for environment variables shown [here](https://github.com/scaleway/scaleway-sdk-go/blob/653cd5e743a9a3a96243ea189c8c69664af42970/scw/README.md#environment-variables).
 
@@ -115,7 +115,7 @@ The environment variables to configure will vary according to what is used in th
 > export SCW_PROJECT_ID="<Scaleway Project ID>  
 >```
 
-#### Main steps of quickstart
+### Main steps of quickstart
 
 - **Use numbered steps**: The quickstart should be broken into numbered steps, where generally one one call to the API to = one step.
 - **Start steps with an action verb**: Each step should start with an action verb. Preferably, the verb will match the endpoint for the call it is describing, e.g. `**Create an Instance**: Run the following command to create an Instance. You can customize the details in the payload (name, description, type, tags etc) to your needs: use the information in the table below to adjust the payload as necessary.`
