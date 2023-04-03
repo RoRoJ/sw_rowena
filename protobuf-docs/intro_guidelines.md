@@ -9,12 +9,12 @@ This introduction should conform to the template and guidelines defined in this 
  - [Location](#location)
  - [Structure](#structure)
  - [Headers](#headers)
- - [Introduction Part 1: Overview](#introduction-part-1:-overview)
- - [Introduction Part 2: Concepts](#introduction-part-2:-concepts)
- - [Introduction Part 3: Quickstart](#introduction-part-3:-quickstart)
- - [Introduction Part 4: Technical Information](#introduction-part-4:-technical-information)
- - [Introduction Part 5: Technical Limitations](#introduction-part-5:-technical-limitations)
- - [Introduction Part 6: Further Support](#introduction-part-6:-further-support)
+ - [Introduction Part 1: Overview](#introduction-part-1-overview)
+ - [Introduction Part 2: Concepts](#introduction-part-2-concepts)
+ - [Introduction Part 3: Quickstart](#introduction-part-3-quickstart)
+ - [Introduction Part 4: Technical Information](#introduction-part-4-technical-information)
+ - [Introduction Part 5: Technical Limitations](#introduction-part-5-technical-limitations)
+ - [Introduction Part 6: Further Support](#introduction-part-6-further-support)
 
 ## Location
 
@@ -155,9 +155,9 @@ For examples of full quickstarts that you can use as templates, check out the [I
 >
 >### Regions
 >
->Scaleway's infrastructure spans different [regions and Availability Zones](https://>www.scaleway.com/en/docs/console/my-account/reference-content/products-availability/).
+>Scaleway's infrastructure spans different [regions and Availability Zones](https://www.scaleway.com/en/docs/console/my-account/reference-content/products-availability/).
 >
->Managed Database for PostgreSQL and MySQL is available in the Paris, Amsterdam and Warsaw regions, >which are represented by the following path parameters:
+>Managed Database for PostgreSQL and MySQL is available in the Paris, Amsterdam and Warsaw regions, which are represented by the following path parameters:
 >
 >- `fr-par`
 >- `nl-ams`
@@ -187,14 +187,4 @@ For examples of full quickstarts that you can use as templates, check out the [I
 > For more help using Scaleway Instances, check out the following resources:
 > - Our [main documentation](https://www.scaleway.com/en/docs/compute/instances)
 > - The #instance channel on our [Slack Community](https://www.scaleway.com/en/docs/tutorials/scaleway-slack-community/)
-> - Our |support ticketing system](https://www.scaleway.com/en/docs/console/my-account/how-to/open-a-support-ticket)
-
-
-
-
-
-TODO: 
-- Is the intro only used by the OpenAPI generation / dev site, or also CLI/other?
-- Remember to change all intros to overviews, and h2s only
-- Add info about message boxes/components for dev website
-- Info about macros
+> - Our [support ticketing system](https://www.scaleway.com/en/docs/console/my-account/how-to/open-a-support-ticket)
